@@ -1,0 +1,40 @@
+body{
+	width: 480px;
+}
+.block{
+	position: relative;
+}
+fieldset {
+	margin-top: 60px;
+	display: inline;
+	width: 100%;
+	border: none;
+	text-align: center;
+}
+.block_img{
+	width: 100%;
+	display: inline-block;
+}
+input{
+	width: 40%;
+	outline: none;
+	display: none;
+}
+input + img{
+	opacity: 0.3;
+}
+input:checked + img{
+	opacity: 1;
+}
+label{
+	display: inline-block;
+	width: 100%;
+}
+.block1{
+	display: inline-block;
+	width: 40%;
+	margin-right: 0;
+}	
+label:hover{
+	cursor: pointer;
+}
